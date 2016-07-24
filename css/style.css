@@ -1893,6 +1893,10 @@ form .field {
   margin-bottom: 15px;
 }
 form .field label {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> origin/master
     position: absolute;
     top: 0;
     left: 0;
@@ -1937,6 +1941,10 @@ form .field textarea {
   color: #313A3D;
   font-size: 13px;
   letter-spacing: 0.05em;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> origin/master
 }
 form .field input[type="text"]#msg,form .field input[type="password"]#msg
 form .field textarea#msg {
