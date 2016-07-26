@@ -776,11 +776,11 @@ p.creating{
     margin: 3em 0 0;
 }
 .sub_home_left{
-	float:left;
+	float:right;
 	width:30%;
 }
 .sub_home_right{
-	float:right;
+	float:left;
 }
 .sub_home_right p{
 	font-size:1em;

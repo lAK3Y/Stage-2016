@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>| Projet</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<title>| Postuler</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-select.css">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/font-awesome.min.css" />
-<!-- jQuery (necessary JavaScript plugins) -->
-<script src="js/jquery.min1.js"></script>
-<!-- Custom Theme files -->
- <link href="css/dashboard.css" rel="stylesheet">
-<link href="css/style1.css" rel='stylesheet' type='text/css' />
-
-<!-- Custom Theme files -->
-<!--//theme-style-->
+<!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Curriculum Vitae Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-<!-- start menu -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<meta name="keywords" content="Resale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <!--fonts-->
@@ -107,125 +94,70 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p>Postuler et Deposer gratuitement</p>
 			<a href="deposer.html" >Deposer</a> &nbsp;<a href="projets.html" >Postuler</a>
 	  </div>
-</div>
+	</div>
 
-	<div class="total-ads main-grid-border">
+	<!-- Submit Ad -->
+	<div class="submit-ad main-grid-border">
 		<div class="container">
-			<div class="ads-grid">
-				<div class="side-bar col-md-3">
-				
-				<div class="range">
+			<h2 class="head">Postuler </h2>
+			<div class="post-ad-form">
+				<form>
 					
-						<div class="sidebar_top">
-			 				<h1>USER NAME</h1> 
-							<img src="images/avt.png" alt=""/>
+					<div class="clearfix"></div>
+					<label>Nom<span>*</span></label>
+					<input type="text" class="phone" placeholder="">
+					<div class="clearfix"></div>
+					<label>Prénom<span>*</span></label>
+					<input type="text" class="phone" placeholder="">
+					<div class="clearfix"></div>
+					<label>Description<span>*</span></label>
+					<textarea class="mess" placeholder="Ecrire une discription a propos votre projet"></textarea>
+					<div class="clearfix"></div>
+				<div class="upload-ad-photos">
+				<label>Ajouter votre CV</label>	
+					<div class="photos-upload-view">
+						<form id="upload" action="index.html" method="POST" enctype="multipart/form-data">
+
+						<input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+						<div>
+							<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+							<div id="filedrag">ou glisser le ici</div>
 						</div>
-						<div class="details">
-			 				<h3>PHONE</h3>
-						 	<p>+00 234 56 789</p>  	 
-						 	<h3>EMAIL</h3>
-						 	<p><a href="mailto@example.com">mail@example.com</a></p>
-						 	<address>
-						 		<h3>ADDRESS</h3>
-							 	<span>Lorem ipsum,</span>
-							 	<span>Sed dolor sit,</span>
-			 				 	<span>Praesent porta.</span>
-						 	</address>
-			 
+
+						<div id="submitbutton">
+							<button type="submit">Upload Files</button>
 						</div>
-					
+
+						</form>
+
+						<div id="messages">
+						<p>curriculum vitae</p>
+						</div>
+						</div>
+					<div class="clearfix"></div>
+						<script src="js/filedrag.js"></script>
 				</div>
-							<script type="text/javascript" src="js/jquery-ui.js"></script>
-							<script type='text/javascript'>//<![CDATA[ 
-							$(window).load(function(){
-							 $( "#slider-range" ).slider({
-										range: true,
-										min: 0,
-										max: 31,
-										values: [ 0, 31 ],
-										slide: function( event, ui ) {  $( "#amount" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
-										}
-							 });
-							$( "#amount" ).val( "" + $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 ) );
+					<div class="personal-details">
+					<form>
+						<label>Adresse<span>*</span></label>
+						<input type="text" class="name" placeholder="">
+						<div class="clearfix"></div>
+						<label>Tel<span>*</span></label>
+						<input type="text" class="phone" placeholder="">
+						<div class="clearfix"></div>
+						<label>E-mail:<span>*</span></label>
+						<input type="text" class="email" placeholder="">
+						<div class="clearfix"></div>
 
-							});//]]>  
-
-							</script>
-							</div>
-							</div>
-				<div class="ads-display col-md-9">				
-						<div id="container">
-							<div class="search-hotel">
-						<h3 class="sear-head">Mes Postule</h3>
-							</div>
-							<ul class="list">
-								<a href="single.html">
-									<li>
-									<section class="list-left">
-									<h5 class="title">Projet1</h5>
-									<p class="catpath">Services » Other Services</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:55</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<section class="list-left">
-									<h5 class="title">Projet2</h5>
-									<p class="catpath">Services » Other Services</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:45</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<section class="list-left">
-									<h5 class="title">Projet3</h5>
-									<p class="catpath">Services » Other Services</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:30</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<section class="list-left">
-									<h5 class="title">Projet4</h5>
-									<p class="catpath">Services » Other Services</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:25</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-							</ul>
-						</div>
-						<ul class="pagination pagination-sm">
-							<li><a href="#">Prev</a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">Next</a></li>
-						</ul>
-							</div>
-<div class="clearfix"></div>
+					<input type="submit" value="Postuler">					
+					<div class="clearfix"></div>
+					</form>
+					</div>
 			</div>
 		</div>	
 	</div>
-	<!-- // Electronic appliances -->
+	<!-- // Submit Ad -->
 	<!--footer section start-->		
 		<footer>
 			<div class="footer-top">
@@ -284,19 +216,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="footer-bottom text-center">
 			<div class="container">
 				<div class="footer-logo">
-					<a href="index.html"><span>WIN</span>PFE</a>
+					<a href="index.html"><span>Re</span>sale</a>
 				</div>
 				<div class="footer-social-icons">
 					<ul>
 						<li><a class="facebook" href="#"><span>Facebook</span></a></li>
 						<li><a class="twitter" href="#"><span>Twitter</span></a></li>
-						
+						<li><a class="flickr" href="#"><span>Flickr</span></a></li>
 						<li><a class="googleplus" href="#"><span>Google+</span></a></li>
-						
+						<li><a class="dribbble" href="#"><span>Dribbble</span></a></li>
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p></p>
+					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
