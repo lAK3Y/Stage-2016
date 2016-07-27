@@ -1,4 +1,4 @@
-f/*--
+/*--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -19,7 +19,6 @@ body a{
 	font-family: 'Open Sans', sans-serif;
 }
 input[type="button"],input[type="submit"]{
-	
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -2110,7 +2109,7 @@ form#upload {
     margin: 4% auto 0;
 }
 form.submit {
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
 }
 /*-- //Contact --*/
