@@ -4,6 +4,41 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+/*-- Tabs --*/
+
+
+.resp-tabs-list {
+
+	text-align: center;
+}
+.resp-tab-item-1 {
+	color: #000;
+	font-size: 18px;
+	display: inline-block;
+	margin: 0;
+	outline: none;
+	width: 34%;
+	background: #01a185;
+	float: left;
+	padding: 15px 0;
+	border-right: 1px solid #777;
+}
+
+.resp-tab-item-2 {
+	color: #000;
+	font-size: 18px;
+	display: inline-block;
+	margin: 0;
+	outline: none;
+	width: 33%;
+	background: #f3c500;
+	float: left;
+	padding: 15px 0;
+	border-right: 1px solid #777;
+}
+
+/*-- //Tabs --*/
 body{
 	padding:0;
 	font-family: 'Open Sans', sans-serif;
