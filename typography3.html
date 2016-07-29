@@ -1,0 +1,360 @@
+<html>
+<head>
+<title>| Inscription</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->	
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+<!-- Source -->
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+				} );
+			} );
+		</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+			
+			<div class="header-right">
+		
+			<a class="account" href="apropos.html">A propos</a>
+			<a class="account" href="projets.html">Projet</a>
+			<a class="moncompte" href="login.html">Mon Compte</a>
+			
+			</div>
+		</div>
+		</div>
+<div class="main-banner banner text-center">
+	  <div class="container"> 
+	  		<br/>
+	  		<br/>
+	  		<br/>
+	  		<br/>
+	  		<br/>   
+			<h1>Trouver facilement<span class="segment-heading">    votre projet </span></h1>
+			<p>Postuler et Deposer gratuitement</p>
+			<a href="deposer.html" >Deposer</a> &nbsp;<a href="projets.html" >Postuler</a>
+	  </div>
+	</div>
+	
+	<!-- Typography -->
+	
+ 	  
+  	<div>
+     <div class="grid_3 grid_5">
+	     <h3 class="head-top">Creer un compte d'entreprise</h3>
+	     <div class="but_list">
+	       <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+			<ul id="myTab" class="nav nav-tabs" role="tablist">
+			  <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Etape-1</a></li>
+			  <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Etape-2</a></li>
+			  <li role="presentation"><a href="#prof" role="tab" id="prof-tab" data-toggle="tab" aria-controls="profil">Etape-3</a></li>
+			</ul>
+		
+
+
+		<div id="myTabContent" class="tab-content">
+		  <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+		    <div class="sign-up">
+						<br/>
+						<h2>Informations générales:</h2>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Nom:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Spécialités:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Region:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<select>
+												<optgroup>
+													<option selected="" style="display:none;color:#eee;"></option>
+													<option>Tunis</option>
+													<option>Ariana</option>
+													<option>Ben Arous</option>
+													<option>Manouba</option>
+													<option>Nabeul</option>
+													<option>Zaghouan</option>
+													<option>Bizerte</option>
+													<option>Beja</option>
+													<option>Jendouba</option>
+													<option>Kef</option>
+													<option>Siliana</option>
+													<option>Mahdia</option>
+													<option>Sousse</option>
+													<option>Monastir</option>
+													<option>Sfax</option>
+													<option>Kairouan</option>
+													<option>Kasserine</option>
+													<option>Sidi Bouzid</option>
+													<option>Gabes</option>
+													<option>Medenine</option>
+													<option>Tataouine</option>
+													<option>Gafsa</option>
+													<option>Tozeur</option>
+													<option>Kebili</option>
+												</optgroup>
+												
+			            </select>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+		  </div>
+
+
+
+
+		  <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+		   <div class="sign-up">
+						<br/>
+						<h2>Contact:</h2>
+							<div class="sign-up1">
+								<h4>Adresse:</h4>
+							</div>
+							<div class="sign-up2">
+							<form>
+								<input type="text" placeholder=" " required=" "/>
+								</form>
+								</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+							<br/>
+								<h4>Telephone:</h4>
+							</div>
+							<div class="sign-up2">
+							<form>
+								<input type="text" placeholder=" " required=" "/>
+								</form>
+								</div>
+							<div class="clearfix"> </div>
+						</div>
+							<div class="sign-u">
+							<div class="sign-up1">
+								<h4>E-Mail:</h4>
+							</div>
+							<div class="sign-up2">
+							<form>
+								<input type="text" placeholder=" " required=" "/>
+								</form>
+								</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+		  </div>
+
+
+
+		  <div role="tabpanel" class="tab-pane fade" id="prof" aria-labelledby="prof-tab">
+		    <div class="sign-up">
+						<br/>
+						<h2>Informations avancées:</h2>
+					
+							<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Raison Social</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Matricule fiscal</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Ajouter votre image</h4>
+							</div>
+							<div class="sign-up2">
+							<br/>
+							<br/>
+								<form>
+									<input id="fileselect" name="fileselect[]" multiple="multiple" type="file">
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sub_home">
+							<div class="sub_home_left">
+								<form>
+									<input type="submit" value="Creer Compte">
+								</form>
+							</div>
+							
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+		  </div>
+		</div>
+   </div>
+   </div>
+  </div>
+       
+        </div>
+      </div>
+	<!-- // Terms of use -->
+	<!--footer section start-->			
+		<footer>
+			<div class="footer-top">
+				<div class="container">
+					<div class="foo-grids">
+						<div class="col-md-3 footer-grid">
+							<h4 class="footer-head">Nous-Somme</h4>
+							<p>WinPFE est un réseau national des petites annonces des stage </p>
+						</div>
+
+						<div class="col-md-3 footer-grid">
+							<h4 class="footer-head">Aide</h4>
+							<ul>						
+								<li><a href="sitemap.html">Maps de Site</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-3 footer-grid">
+							<h4 class="footer-head">Plan de site</h4>
+							<ul>
+								<li><a href="index.html">Accueil</a></li>	
+								<li><a href="apropos.html">A Propos</a></li>
+								<li><a href="projets.html">Projets</a></li>	
+								<li><a href="login.html">Compte</a></li>	
+							</ul>
+						</div>
+
+						<div class="col-md-3 footer-grid">
+							<h4 class="footer-head">Contacter-Nous</h4>
+							<address>	
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-earphone"></span></li>
+									<li>+21655929056</li>
+									<div class="clearfix"></div>
+								</ul>	
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-earphone"></span></li>
+									<li>+21622638801</li>
+									<div class="clearfix"></div>
+								</ul>
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-envelope"></span></li>
+									<li><a href="mailto:info@example.com">akram.nakti@gmail.com</a></li>
+									<div class="clearfix"></div>
+								</ul>						
+							</address>
+						</div>
+						<div class="clearfix"></div>
+					</div>						
+				</div>	
+			</div>	
+			<div class="footer-bottom text-center">
+			<div class="container">
+				<div class="footer-logo">
+					<a href="index.html"><span>Win</span>PFE</a>
+				</div>
+				<div class="footer-social-icons">
+					<ul>
+						<li><a class="facebook" href="#"><span>Facebook</span></a></li>
+						<li><a class="twitter" href="#"><span>Twitter</span></a></li>
+						<li><a class="googleplus" href="#"><span>Google+</span></a></li>
+						
+					</ul>
+				</div>
+				<div class="copyrights">
+					<p></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		</footer>
+        <!--footer section end-->
+</body>
+</html>
