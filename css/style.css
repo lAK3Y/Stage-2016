@@ -4,42 +4,6 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
-
-/*-- Tabs --*/
-
-
-.resp-tabs-list {
-
-	text-align: center;
-}
-.resp-tab-item-1 {
-	color: #000;
-	font-size: 18px;
-	display: inline-block;
-	margin: 0;
-	outline: none;
-	width: 34%;
-	background: #01a185;
-	float: left;
-	padding: 15px 0;
-	border-right: 1px solid #777;
-}
-
-.resp-tab-item-2 {
-	color: #000;
-	font-size: 18px;
-	display: inline-block;
-	margin: 0;
-	outline: none;
-	width: 33%;
-	background: #f3c500;
-	float: left;
-	padding: 15px 0;
-	border-right: 1px solid #777;
-}
-
-/*-- //Tabs --*/
 body{
 	padding:0;
 	font-family: 'Open Sans', sans-serif;
@@ -121,6 +85,7 @@ label{
 }
 .modal-header {
     text-align: Center;
+    text-decoration-color: #01a185;
 }
 .modal-title {
     font-size: 30px;
@@ -164,8 +129,14 @@ label{
 .modal-header {
     padding: 25px;
 }
+.modal-header h4 {
+    color: #f3c500;
+}
 .modal-body {
     padding: 30px 15px 10px;
+}
+.modal-body h3 {
+    color: #01a185;
 }
 .close {
     font-size: 45px;
@@ -752,16 +723,7 @@ p.creating{
 	float:right;
 	width:70%;
 	}
-.sign-up2 input[type="date"]{
-	outline:none;
-	border:1px solid #BEBEBE;
-	background:none;
-	font-size:15px;
-	padding:10px 10px;
-	width:100%;
-	margin:1em 0;
-	}
-.sign-up2 input[type="text"]{
+.sign-up2 input[type="text"], .sign-up2 input[type="date"] {
 	outline:none;
 	border:1px solid #BEBEBE;
 	background:none;
@@ -2333,6 +2295,25 @@ h3.rate {
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
+.select-boxx {
+    background: rgba(1, 161, 133, 0.39);
+    padding: 30px 30px;
+    margin: 40px 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.select-boxx h3{
+	text-align: center;
+
+}
+
+.select-boxx h4{
+	float: right;
+
+}
 .ads-list label {
 	display: block;
     font-size: 14px;
@@ -3291,6 +3272,7 @@ footer.diff {
    font-size:2em;
    margin-bottom:1em;
    color: #01A185;
+   text-align: center;
 }
 .grid_3 p {
     color: #999;
@@ -4725,6 +4707,10 @@ label {
 		float: none;
 	}
 	.select-box {
+		padding: 25px 15px;
+		margin: 35px 0;
+	}
+	.select-boxx {
 		padding: 25px 15px;
 		margin: 35px 0;
 	}
