@@ -117,24 +117,155 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="range">
 					
 						<div class="sidebar_top">
-			 				<h2>Nom Entreprise</h2> 
-							<img src="images/avt.png" alt=""/>
+			 				<h2>IBS</h2> 
+							<img src="images/logoibs.png" alt=""/>
 						</div>
 						<div class="details">
 			 				<h3>Telephone</h3>
-						 	<p>+216********</p>  	 
+						 	<p>+21674000000</p>  	 
 						 	<h3>E-Mail</h3>
 						 	<p><a href="mailto@example.com">mail@example.com</a></p>
 						 	<address>
 						 		<h3>Adresse</h3>
 							 	<span>Tunisie</span>
-							 	<span>Region</span>
-			 				 	<span>Rt...</span>
+							 	<span>Sfax</span>
+			 				 	<span>Centre ville</span>
 						 	</address>
 			 
 						</div>
 					
 				</div>
+
+
+
+			<div class="selectregion">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+				Modifier profil</button>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+					aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+										&times;</button>
+									<h4 class="modal-title" id="myModalLabel">
+										Modifier Profil</h4>
+								</div>
+					<div class="modal-body">
+						<form class="form-horizontal" role="form">
+						
+						</form>
+					
+							
+					
+							
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Nom</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Adresse:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Téléphone:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder="+216" required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Site Web:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder="http:// " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>E-Mail:</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="text" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="sign-u">
+							<div class="sign-up1">
+								<h4>Mot de passe</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="password" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="sign-up1">
+								<h4>Confirmé Mot de passe</h4>
+							</div>
+							<div class="sign-up2">
+								<form>
+									<input type="password" placeholder=" " required=" "/>
+								</form>
+							</div>
+							<div class="clearfix"></div>
+							<div class="sub_home_left">
+								<form>
+									<input value="Enregistrer" type="submit">
+								</form>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+					
+				
+							<script type="text/javascript" src="js/jquery-ui.js"></script>
+							<script type='text/javascript'>//<![CDATA[ 
+							$(window).load(function(){
+							 $( "#slider-range" ).slider({
+										range: true,
+										min: 0,
+										max: 31,
+										values: [ 0, 31 ],
+										slide: function( event, ui ) {  $( "#amount" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+										}
+							 });
+							$( "#amount" ).val( "" + $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 ) );
+
+							});//]]>  
+
+							</script>
+							</div>
+
+
 							<script type="text/javascript" src="js/jquery-ui.js"></script>
 							<script type='text/javascript'>//<![CDATA[ 
 							$(window).load(function(){
@@ -166,14 +297,59 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne">
-								 <span>1.</span> Projet 1
+								Titre Projet 1
+								 <span class="badge badge-success">Vu:3</span>
  
 							 </h4>
 							 
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>DDD</p>
+									
+									<section class="list-left">
+									<h6 class="title">Etudiant.1</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div>
+
+							</div>
+									
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.2</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div> 
+							</div>
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.3</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div> 
 							</div>
 						</div>
 					</div>
@@ -182,13 +358,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse"  data-target="#collapseTwo">
-								<span>2.</span> Projet 2
+								<span class="badge badge-success">Vu:1</span> Titre Projet 2
 							 </h4>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse">
-							<div class="panel-body">								
-								<p>CCC</p>
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.1</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div> 
 							</div>
+							
 						</div>
 					</div>
 					
@@ -196,12 +385,69 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThree">
-								<span>3.</span> Projet 3
+								<span class="badge badge-success">Vu:4</span> Titre Projet 3
 							 </h4>
 						</div>
 						<div id="collapseThree" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>BBB</p>
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.1</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div>
+							</div>
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.2</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div> 
+							</div>
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.3</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div> 
+							</div>
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.4</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div> 
 							</div>
 						</div>
 					</div>
@@ -209,13 +455,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFour">
-								<span>4.</span> Projet 4
+								<span class="badge badge-success">Vu:2</span> Titre Projet 4
 							 </h4>
 						</div>
 						<div id="collapseFour" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>AAA</p>
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.1</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div>
 							</div>
+							<div class="panel-body">
+						
+									<section class="list-left">
+									<h6 class="title">Etudiant.2</h6>
+									<td><span class="badge badge-danger">Refusé</span></td>
+									<td><span class="badge badge-success">Accepté</span></td>
+									
+									<a href=""><p class="catpath">Voir Profil</p></a>
+									</section>
+									<section class="list-right">
+									<span class="date">Le 05/08/16</span>
+									</section>	
+
+									<div class="clearfix"></div>
+							</div>
+							
 						</div>
 					</div>
 					<div class="clearfix"></div>

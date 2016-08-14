@@ -1555,14 +1555,17 @@ h4.mpcwc {
     border-top-color: #FFF;
 }
 .panel-title {
-    font-size: 19px;
+    font-size: 22px;
+    display: block;
 }
 .panel-title:hover {
      cursor: pointer;
 }
 .panel-title span {
 	color:#01A185;
+	float: right;
 }
+
 .panel-body {
 	padding-top:0;
 	padding-bottom:0;
@@ -2119,6 +2122,7 @@ form.submit {
     text-align: center;
     margin-top: 20px;
 }
+
 /*-- //Contact --*/
 /*-- single-page --*/
 .single-page {
@@ -2735,14 +2739,14 @@ div#myTabContent {
 #container .list li p {
     overflow: hidden;
     word-wrap: break-word;
-    color: #C1C1C1;
+    color: #01a185;
     font-size: 13px;
     margin-top: 15px;
 }
 #container .list li .title{
 	overflow: hidden;
     word-wrap: break-word;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: #000000;
     font-weight: 500;
@@ -2778,7 +2782,7 @@ span.adprice {
     display: block;
     width: 100%;
     margin: 15px 0 5px 0;
-    color: #404040;
+    color: #01a185;
     font-weight: 400;
 }
 #container .list li .cityname{
@@ -3401,13 +3405,15 @@ label {
 }
 .badge-success {
   background-color: #8bc34a;
+  float: right;
 }
 .badge-warning {
   background-color: #ffc107;
 }
 .badge-danger {
   background-color: #e51c23;
-}
+ float: right;
+
 
 /*-- responsive media queries --*/
 @media (max-width: 1366px){
