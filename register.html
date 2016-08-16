@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>| Inscription</title>
+<title>| Connection</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-select.css">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -52,7 +55,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery.uls.languagefilter.js"></script>
 <script src="js/jquery.uls.regionfilter.js"></script>
 <script src="js/jquery.uls.core.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 <script>
 			$( document ).ready( function() {
 				$( '.uls-trigger' ).uls( {
@@ -94,102 +96,146 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  </div>
 	</div>
 
-	 <section>
-			<div id="page-wrapper" class="sign-in-wrapper">
-				<div class="graphs">
-					<div class="sign-up">
-						<h1>Creer un compte</h1>
-						<br/>
-						
-						
-						<div class="sign-u">
-							<div class="sign-up1">
-								<h4>Address mail:</h4>
-							</div>
-							<div class="sign-up2">
-								<form>
-									<input type="text" placeholder=" " required=" "/>
-								</form>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="sign-u">
-							<div class="sign-up1">
-								<h4>Mot de passe:</h4>
-							</div>
-							<div class="sign-up2">
-								<form>
-									<input type="password" placeholder=" " required=" "/>
-								</form>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="sign-u">
-							<div class="sign-up1">
-								<h4>Confirmer mot de passe:</h4>
-							</div>
-							<div class="sign-up2">
-								<form>
-									<input type="password" placeholder=" " required=" "/>
-								</form>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-							<div class="sign-u">
-							<div class="sign-up1">
-								<h4>Je Suis:</h4>
-							</div>
-							<div class="sign-up2">
-							<form>
-								<select name="action">
-										<option value="registerentud">Un Etudiant</option>
-										<option value="registerentre">Une Institut</option>
-										<option value="registerentre">Une Entreprise</option>
-								</select>
-								</form>
-								</div>
-							<div class="clearfix"> </div>
-							<div class="g-recaptcha" data-sitekey="6Ld2OiYTAAAAAOGa7iyYgIJBZRpYdNOrB7WtPkv-"></div>
-						</div>
-						<div class="sub_home">
+	<!-- Terms of use -->
+<div class="contact main-grid-border">
+		 <div class="container"> 
+		 <h2 class="head text-center">Vous-êtes ?</h2>
+		 <section id="hire">         
+            <div class="col-md-4 portfolio-item">
+                <a href="registeretud.html">
+                    <img class="img-responsive" src="images/y1.jpg" alt="">
+                </a>
+                <br/>
+                <h2>
+                    <a href="registeretud.html">Un Etudiant</a>
+                </h2>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="registerinst.html">
+                    <img class="img-responsive" src="images/y3.jpg" alt="">
+                </a>
+                <br/>
+                <h2>
+                    <a href="registerinst.html">Une Institut</a>
+                </h2>
+                
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="registerentre.html">
+                    <img class="img-responsive" src="images/y2.jpg" alt="">
+                </a>
+                <br/>
+                <h2>
+                    <a href="registerentre.html">Une Entreprise</a>
+                </h2>
+                
+            </div>
+           </section>
+  		</div>   <br/>   <br/>   <br/>   <br/> 
+  </div>
 
-							<div class="sub_home_right">
-								<p>Retourner à <a href="index.html"> Accueil</a></p>
-							</div>
-							
-							<div class="sub_home_left">
+		        
+		<!-- JavaScript Includes -->
+		<script src="js/jquery.knob.js"></script>
 
-								<form action="action.html">
-
-	  								<input type="submit" name="next" value="Suivant">
-	  		
-	  							</form>
-
-							</div>
-
-							<div class="clearfix"> </div>
+		<!-- jQuery File Upload Dependencies -->
+		<script src="js/jquery.ui.widget.js"></script>
+		<script src="js/jquery.fileupload.js"></script>
+		
+		<!-- Our main JS file -->
+		<script src="js/script.js"></script>
 						</div>
-					</div>
-				</div>
-			</div>
-		<!--footer section start-->
-		<footer>
+			</section>
+			<script>
+				  $('textarea').blur(function () {
+				$('#hire textarea').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('textarea + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('textarea + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:first-child input').blur(function () {
+				$('#hire .field:first-child input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:first-child input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:first-child input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:nth-child(2) input').blur(function () {
+				$('#hire .field:nth-child(2) input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:nth-child(2) input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:nth-child(2) input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:nth-child(3) input').blur(function () {
+				$('#hire .field:nth-child(3) input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:nth-child(3) input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:nth-child(3) input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+			$('#hire .field:nth-child(4) input').blur(function () {
+				$('#hire .field:nth-child(4) input').each(function () {
+					$this = $(this);
+					if (this.value != '') {
+						$this.addClass('focused');
+						$('.field:nth-child(4) input + label + span').css({ 'opacity': 1 });
+					} else {
+						$this.removeClass('focused');
+						$('.field:nth-child(4) input + label + span').css({ 'opacity': 0 });
+					}
+				});
+			});
+		  //@ sourceURL=pen.js
+		</script>    
+		<script>
+	  if (document.location.search.match(/type=embed/gi)) {
+		window.parent.postMessage("resize", "*");
+	  }
+	</script>
+		</div>	
+	</div>
+
+	<!-- // Terms of use -->
+	<!--footer section start-->		
+				<footer>
+			
 			<div class="footer-bottom text-center">
 			<div class="container">
 				<div class="footer-logo">
-					<a href="index.html"><span>Internship</span>Finder</a>
+					<a href="index.html"><span>Win</span>PFE</a>
 				</div>
 				<div class="footer-social-icons">
 					<ul>
 						<li><a class="facebook" href="#"><span>Facebook</span></a></li>
 						<li><a class="twitter" href="#"><span>Twitter</span></a></li>
-						
 						<li><a class="googleplus" href="#"><span>Google+</span></a></li>
 						
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2016 ####. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> ####</a></p>
+					<p></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
