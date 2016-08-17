@@ -2263,6 +2263,8 @@ form.submit {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 85%;
+    background-color: #E0FFFF;
 }
 .product-vieww h2 {
     font-size: 28px;
@@ -3200,6 +3202,20 @@ ul.privacy-start {
 	color:red;
 }
 .post-ad-form input[type="text"] {
+    padding: 10px 10px 10px 10px;
+    width: 70%;
+    margin-bottom: 25px;
+    border: 1px solid #01a185;
+    outline: none;
+    color: #555;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	float: left;
+}
+.post-ad-form input[type="password"] {
     padding: 10px 10px 10px 10px;
     width: 70%;
     margin-bottom: 25px;
