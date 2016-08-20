@@ -117,7 +117,7 @@ label{
     padding: 11px;
 }
 .modal-lg {
-    width: 580px;
+    width: 800px;
     padding: 25px 35px;
     background-color: #fff;
 	border-radius: 5px;
@@ -128,12 +128,15 @@ label{
 }
 .modal-header {
     padding: 25px;
+    background-color: #E0FFFF;
 }
 .modal-header h4 {
     color: #f3c500;
+
 }
 .modal-body {
     padding: 30px 15px 10px;
+    background-color: #F0FFF0;
 }
 .modal-body h3 {
     color: #01a185;
