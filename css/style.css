@@ -264,6 +264,14 @@ span.active.uls-trigger {
     margin-top: 26px;
 	font-size: 14px;
 }
+.btn-primary2 {
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+	background: #cd6302;
+	color: #fff;
+}
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
     color: #6D6D6D;
     background-color: #FDFDFD;
@@ -2383,8 +2391,11 @@ h3.rate {
 	font-size:50px;
 	margin-left: auto;
 	margin-right: auto;
-
-	
+}
+.interested  button {
+	font-size:50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .interested p i {
     margin-right: 12px;
@@ -4862,7 +4873,7 @@ label {
 		width: 100%;
 	}
 	.selectregion {
-		float: none;
+		float: left;
 	}
 	.select-box {
 		padding: 25px 15px;
