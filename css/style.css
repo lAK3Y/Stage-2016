@@ -1850,7 +1850,7 @@ a.work:hover {
 }
 
 
-.happy-clients-gridd {
+.happyy-clientss-gridd {
 	text-align: center;
 	background:#fff;
 	padding:35px 30px;
@@ -1862,39 +1862,43 @@ a.work:hover {
 	width: 100%;
 	margin: 2% 3% 0 0;
 }
-.happy-clients-gridd p {
+.happyy-clientss-gridd p {
 	color: #7b7b7b;
     font-size: 13px;
     line-height: 1.9em;
     margin-bottom: 16px;
 }
-.happy-clients-gridd h4 {
-	color:#99a9ae;
-	font-size:14px;
+.happyy-clientss-gridd h4 {
+	color:#f3c500;
+	font-size:12px;
 	text-transform: uppercase;
 }
-.happy-clients-gridd h4 a {
+.happyy-clientss-gridd h4 a {
 	color:#f6772c;
 	text-decoration:none;
 }
 
+.happyy-clientss-gridd h3  {
+	color:#f6772c;
+	text-decoration:none;
+	font-size: 20px;
+}
+
+
+.happyy-clientss-gridd span  {
+	color:#f6772c;
+	text-decoration:none;
+	font-size: 12px;
+	float: right;
+}
 
 .clientt {
 	float:left;
-	width: 25%;
-	margin-right: 6%;
 }
-.clientt img {
-	width:100%;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-}
+
 .clientt-info {
-	float:left;
-	width: 69%;
+	float:right;
+	width: 100%;
 }
 
 
@@ -2623,7 +2627,7 @@ padding: 25px 0 30px 0;
 border-bottom: 1px solid #e5e3db; 
 }
 .side-bar {
-    background-color: #F9F9F9;
+    background-color: #F0F8FF;
 	padding: 25px 15px;
 }
 .ads-grid {
