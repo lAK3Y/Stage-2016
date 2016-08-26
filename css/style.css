@@ -253,9 +253,7 @@ span.active.uls-trigger {
     color: #6D6D6D;
     margin-top: 26px;
 }
-.selectregion {
-    float: left;
-}
+
 .btn-primary {
     color: #6D6D6D;
     background-color: #FDFDFD;
@@ -752,6 +750,17 @@ p.creating{
 	width:100%;
 	margin:1em 0;
 	}
+.sign-up2 textarea{
+    height: 300px;
+    outline: none;
+    resize: none;
+	padding: 10px 10px 10px 10px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: 1px solid #01a185;
+    outline: none;
+    color: #555;
+}	
 .sign-up2 select{
 	outline:none;
 	border:1px solid #BEBEBE;
@@ -2372,15 +2381,15 @@ h3.rate {
     padding: 20px 0;
 }
 .interested {
-    margin: 20px;
+    margin: 5px;
     padding: 40px 20px;
     background: rgba(1, 161, 133, 0.36);
     margin-left: 15%;
     margin-right: 0;
 }
 .interested  h4 {
-	color:#000;
-	font-size:19px;
+	color:#f3c500;
+	font-size:30px;
 }
 .interested  p {
 	color:#000;
@@ -2391,11 +2400,16 @@ h3.rate {
 	font-size:50px;
 	margin-left: auto;
 	margin-right: auto;
+	float: right;
 }
 .interested  button {
-	font-size:50px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	font-size:50px;
+	background-color: #f3c500;
+	color: #fff;
+	border: double;
 }
 .interested p i {
     margin-right: 12px;
