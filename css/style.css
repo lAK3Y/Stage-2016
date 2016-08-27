@@ -25,10 +25,11 @@ input[type="button"],input[type="submit"]{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 	text-decoration: none;
-	color: #fff;
+	color: #F5F5F5;
 	font-size: 17px;
-	background-color: #f3c500;
+	background-color: #ADD8E6;
 	padding: 10px 20px;
+	
 
 }
 h1,h2,h3,h4,h5,h6{
@@ -128,19 +129,41 @@ label{
 }
 .modal-header {
     padding: 25px;
-    background-color: #E0FFFF;
+    background-color: #ADD8E6;
 }
 .modal-header h4 {
-    color: #f3c500;
+    color: #F5F5F5;
 
 }
 .modal-body {
     padding: 30px 15px 10px;
-    background-color: #F0FFF0;
+    background-color: #F0F8FF; 
 }
 .modal-body h3 {
     color: #01a185;
 }
+
+
+.modal-bodyy {
+    padding: 30px 15px 10px;
+    background-color: #F0F8FF; 
+}
+.modal-bodyy h2 {
+    color: #01a185;
+    text-align: center;
+}
+.modal-bodyy form{
+	padding: 2%;
+	text-align: center;
+}
+
+.modal-bodyy input{
+	width: 100px;
+	height: 60px;
+	font-size: 22px;
+}
+
+
 .close {
     font-size: 45px;
 }
@@ -255,9 +278,9 @@ span.active.uls-trigger {
 }
 
 .btn-primary {
-    color: #6D6D6D;
-    background-color: #FDFDFD;
-    border-color: #FDFDFD;
+    color: #F3C500;
+    background-color: #F0F8FF;
+    border-color: #F0F8FF;
     padding: 0 0 0 30px;
     margin-top: 26px;
 	font-size: 14px;
@@ -271,9 +294,9 @@ span.active.uls-trigger {
 	color: #fff;
 }
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-    color: #6D6D6D;
-    background-color: #FDFDFD;
-    border-color: #FDFDFD;
+    color: #01a185;
+    background-color: #F0F8FF;
+    border-color: #F0F8FF;
 	outline: none;
 }
 /*-- focus --*/
@@ -757,7 +780,7 @@ p.creating{
 	padding: 10px 10px 10px 10px;
     width: 100%;
     margin-bottom: 25px;
-    border: 1px solid #01a185;
+    border: 1px solid #ADD8E6;
     outline: none;
     color: #555;
 }	
@@ -804,7 +827,7 @@ p.creating{
 }
 .sub_home_left{
 	float:right;
-	width:30%;
+	
 }
 .sub_home_right{
 	float:left;
@@ -2392,7 +2415,7 @@ h3.rate {
     margin-right: 0;
 }
 .interested  h4 {
-	color:#f3c500;
+	color:#F5F5F5;
 	font-size:30px;
 }
 .interested  p {
@@ -2626,6 +2649,13 @@ text-decoration: none;
 padding: 25px 0 30px 0;
 border-bottom: 1px solid #e5e3db; 
 }
+
+.range,.brand-select,.featured-ads h2{
+text-align: center;
+color: #F3C500;
+}
+
+
 .side-bar {
     background-color: #F0F8FF;
 	padding: 25px 15px;
@@ -5041,6 +5071,9 @@ label {
 	.category {
 		padding: 20px 0px;
 	}
+
+
+
 }
 
 
