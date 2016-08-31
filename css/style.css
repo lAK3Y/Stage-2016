@@ -143,8 +143,9 @@ label{
     padding: 30px 15px 10px;
     background-color: #F0F8FF; 
 }
-.modal-body h3 {
-    color: #01a185;
+.modal-body h5 {
+    font-size: 19px;
+    display: block;
 }
 
 
@@ -153,7 +154,7 @@ label{
     background-color: #F0F8FF; 
 }
 .modal-bodyy h2 {
-    color: #01a185;
+    color: #f3c500;
     text-align: center;
 }
 .modal-bodyy form{
