@@ -27,7 +27,7 @@ input[type="button"],input[type="submit"]{
 	text-decoration: none;
 	color: #F5F5F5;
 	font-size: 17px;
-	background-color: #ADD8E6;
+	background-color: #f3c500;
 	padding: 10px 20px;
 	
 
@@ -90,6 +90,10 @@ label{
 }
 .modal-title {
     font-size: 30px;
+}
+.modal-title form input{
+    background-color: #ADD8E6;
+
 }
 .modal-content {
     border-radius: 0;
@@ -278,11 +282,11 @@ span.active.uls-trigger {
 }
 
 .btn-primary {
-    color: #F3C500;
+    color: #f3c500;
     background-color: #F0F8FF;
     border-color: #F0F8FF;
     padding: 0 0 0 30px;
-    margin-top: 26px;
+    
 	font-size: 14px;
 }
 .btn-primary2 {
@@ -1895,6 +1899,8 @@ a.work:hover {
 	color:#f3c500;
 	font-size:12px;
 	text-transform: uppercase;
+	display: block;
+	background-color: #fff;
 }
 .happyy-clientss-gridd h4 a {
 	color:#f6772c;
@@ -2985,6 +2991,7 @@ span.adprice {
 	display:block;
 	color: #404040;
 }
+
 span.cityname{
 	display:block;
 	color: #404040;
@@ -3003,6 +3010,122 @@ span.cityname{
     color: #f3c500;
     font-weight: 700;
 }
+
+/*cv de profil etudiant */
+#container .listt{
+    width: 100%;
+}
+#container .listt li {
+    background: #F9F9F9;
+    margin-bottom: 30px;
+    padding: 20px;
+    list-style-type: none;
+	    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	box-shadow: 0 0 0.6em #ccc;
+    -webkit-box-shadow: 0 0 0.6em #ccc;
+    -o-box-shadow: 0 0 0.6em #ccc;
+    -moz-box-shadow: 0 0 0.6em #ccc;
+    -ms-box-shadow: 0 0 0.6em #ccc;
+}
+#container .listt li:hover {
+	background:#fff;
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+#container .listt li img{
+	float: right;
+    width: 65%;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+#container ul.listt li.alt{ background:gray; }
+#container .listt li p {
+    overflow: hidden;
+    word-wrap: break-word;
+    color: #01a185;
+    font-size: 13px;
+    margin-top: 15px;
+}
+#container .listt li .title{
+	overflow: hidden;
+    word-wrap: break-word;
+    font-size: 22px;
+    text-decoration: none;
+    color: #01a185;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#container .listt li .adprice{
+	display:block;
+	font-size:22px;
+	display: block;
+    font-size: 22px;
+    color: #ACD3F7;
+    margin: 5px 0 0 0;
+}
+#container .listt li .list-left {
+    width: 60%;
+    margin-left: 3%;
+    float: left;
+}
+#container .listt li .list-right{
+    width: 15%;
+    float: right;
+    text-align: right;
+}
+#container .listt li .date{
+	float: right;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin: 15px 0 5px 0;
+    color: #01a185;
+    font-weight: 400;
+}
+#container .listt li .cityname{
+	display:block;
+	color: #404040;
+}
+
+#container .listt h5{
+	font-size: 20px;
+	color: #f3c500;
+	margin-right: 75px;
+}
+
+#container .listt li .adprice {
+    display: block;
+    font-size: 22px;
+    color: rgba(1, 161, 133, 0.57);
+    margin: 10px 0 0 0;
+}
+#container .listt li .list-right.title {
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 17px;
+    text-decoration: none;
+    color: #f3c500;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
 
 /* GRID VIEW */
 #container .grid li {
