@@ -17,6 +17,7 @@ body a{
 	-ms-transition:0.5s all;
 	font-weight:400;
 	font-family: 'Open Sans', sans-serif;
+	color: #f3c500;
 }
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
@@ -1930,7 +1931,12 @@ a.work:hover {
 	float:right;
 	width: 100%;
 }
-
+.clientt-info a {
+	font-size: 18px;
+	background-color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 
 
